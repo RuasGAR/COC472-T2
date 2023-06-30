@@ -59,7 +59,7 @@ int run(double *A, double *b, double *x, double *xtmp)
       for (col = 0; col < N; col++)
       {
         if (row != col)
-          dot += A[col + row*N] * x[col];
+          dot += A[row + col*N] * x[col];
       }
       xtmp[row] = (b[row] - dot) / A[row + row*N];
     }
