@@ -1,0 +1,14 @@
+-r
+/home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/trc000
+--return-app-exitcode
+--cs-mode=count-loops,count-flops,stl-profiling,stack-stitching
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--cs-file=/home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/callstacks.def
+--jit-profiling
+--target-gpu=0:0:2.0
+--app-working-dir=/home/ruasgar/Bureau/9 período/CAD/COC472-T3
+--
+/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out
+--norder
+3000

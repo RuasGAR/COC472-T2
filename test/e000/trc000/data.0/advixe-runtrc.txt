@@ -1,0 +1,10 @@
+
+=== Start: [2023/07/02 22:55:26] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/trc000/trc000.advixe 
+Application exit code: 0 
+Result file: /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/trc000/trc000.advixe 
+Analysis completed
+=== End: [2023/07/02 23:39:36] === 

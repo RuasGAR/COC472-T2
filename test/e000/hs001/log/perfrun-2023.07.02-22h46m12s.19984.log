@@ -1,0 +1,95 @@
+15 [139753318135744] INFO perfrun.launcher <> - Launcher main begin
+16 [139753318135744] INFO perfrun.launcher <> - MessageCatalogInit finished
+16 [139753318135744] INFO perfrun.launcher <> - Launcher instance created
+16 [139753318135744] INFO perfrun.launcher <> - argc = 7; cmdline = /opt/intel/oneapi/advisor/2023.1.0/bin64/advixe-runss --ui-output-format xml --ui-output-fd 97 --option-file /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/config/runss.options 
+92 [139753318135744] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+92 [139753318135744] INFO perfrun.launcher <> - create file finder object
+92 [139753318135744] INFO perfrun.launcher <> - create a result directory: pattern = /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001 pid = 4294967295
+95 [139753318135744] INFO perfrun.sdk <> - checked that the directory /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001 is a local directory
+95 [139753318135744] INFO perfrun.sdk <> - the directory /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001 is a local directory with FS type ID 61267
+95 [139753318135744] INFO perfrun.launcher <> - create data directory = /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0
+96 [139753318135744] INFO perfrun.launcher <> - Creating the master collection flag
+108 [139753318135744] INFO perfrun.launcher <> - Done creating the master collection flag
+109 [139753308620544] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+109 [139753308620544] INFO perfrun.sdk <> - Allocating TMU :/home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0/systemcollector-19984-arkangel.sc
+109 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+109 [139753308620544] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+109 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+109 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+109 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+109 [139753308620544] INFO perfrun.mrte <> - system-wide mode is 0
+110 [139753308620544] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+119 [139753308620544] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0
+119 [139753308620544] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=arkangel
+119 [139753308620544] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/advisor/2023.1.0/lib32/runtime:/opt/intel/oneapi/advisor/2023.1.0/lib64/runtime
+119 [139753308620544] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/opt/intel/oneapi/advisor/2023.1.0/lib32/runtime:/opt/intel/oneapi/advisor/2023.1.0/lib64/runtime:/opt/intel/oneapi/tbb/2021.9.0/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/mpi/2021.9.0//libfabric/lib:/opt/intel/oneapi/mpi/2021.9.0//lib/release:/opt/intel/oneapi/mpi/2021.9.0//lib:/opt/intel/oneapi/mkl/2023.1.0/lib/intel64:/opt/intel/oneapi/itac/2021.9.0/slib:/opt/intel/oneapi/ipp/2021.8.0/lib/intel64:/opt/intel/oneapi/ippcp/2021.7.0/lib/intel64:/opt/intel/oneapi/ipp/2021.8.0/lib/intel64:/opt/intel/oneapi/dnnl/2023.1.0/cpu_dpcpp_gpu_dpcpp/lib:/opt/intel/oneapi/debugger/2023.1.0/gdb/intel64/lib:/opt/intel/oneapi/debugger/2023.1.0/libipt/intel64/lib:/opt/intel/oneapi/debugger/2023.1.0/dep/lib:/opt/intel/oneapi/dal/2023.1.0/lib/intel64:/opt/intel/oneapi/compiler/2023.1.0/linux/lib:/opt/intel/oneapi/compiler/2023.1.0/linux/lib/x64:/opt/intel/oneapi/compiler/2023.1.0/linux/lib/oclfpga/host/linux64/lib:/opt/intel/oneapi/compiler/2023.1.0/linux/compiler/lib/intel64_lin:/opt/intel/oneapi/ccl/2021.9.0/lib/cpu_gpu_dpcpp
+119 [139753308620544] INFO perfrun.mrte <> - Data directory: /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0
+119 [139753308620544] INFO perfrun.mrte <> - Mrte plugin is initialized
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.tpss <> - initialize tpss controller
+119 [139753308620544] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+119 [139753308620544] INFO perfrun.tpss <> - default obj-size-min=1024
+119 [139753308620544] INFO perfrun.tpss <> - default hash-table-size=0
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+119 [139753308620544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /opt/intel/oneapi/advisor/2023.1.0/lib32/runtime:/opt/intel/oneapi/advisor/2023.1.0/lib64/runtime:/opt/intel/oneapi/tbb/2021.9.0/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/mpi/2021.9.0//libfabric/lib:/opt/intel/oneapi/mpi/2021.9.0//lib/release:/opt/intel/oneapi/mpi/2021.9.0//lib:/opt/intel/oneapi/mkl/2023.1.0/lib/intel64:/opt/intel/oneapi/itac/2021.9.0/slib:/opt/intel/oneapi/ipp/2021.8.0/lib/intel64:/opt/intel/oneapi/ippcp/2021.7.0/lib/intel64:/opt/intel/oneapi/ipp/2021.8.0/lib/intel64:/opt/intel/oneapi/dnnl/2023.1.0/cpu_dpcpp_gpu_dpcpp/lib:/opt/intel/oneapi/debugger/2023.1.0/gdb/intel64/lib:/opt/intel/oneapi/debugger/2023.1.0/libipt/intel64/lib:/opt/intel/oneapi/debugger/2023.1.0/dep/lib:/opt/intel/oneapi/dal/2023.1.0/lib/intel64:/opt/intel/oneapi/compiler/2023.1.0/linux/lib:/opt/intel/oneapi/compiler/2023.1.0/linux/lib/x64:/opt/intel/oneapi/compiler/2023.1.0/linux/lib/oclfpga/host/linux64/lib:/opt/intel/oneapi/compiler/2023.1.0/linux/compiler/lib/intel64_lin:/opt/intel/oneapi/ccl/2021.9.0/lib/cpu_gpu_dpcpp
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /opt/intel/oneapi/advisor/2023.1.0/lib32/runtime/libittnotify_collector.so
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /opt/intel/oneapi/advisor/2023.1.0/lib64/runtime/libittnotify_collector.so
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /opt/intel/oneapi/advisor/2023.1.0/lib32/runtime/libittnotify_collector.so
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /opt/intel/oneapi/advisor/2023.1.0/lib64/runtime/libittnotify_collector.so
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /opt/intel/oneapi/advisor/2023.1.0/lib32/runtime/libittnotify_collector.so:/opt/intel/oneapi/advisor/2023.1.0/lib64/runtime/libittnotify_collector.so
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = arkangel
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/advisor/2023.1.0/lib32/runtime:/opt/intel/oneapi/advisor/2023.1.0/lib64/runtime
+120 [139753318135744] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /opt/intel/oneapi/advisor/2023.1.0/lib32/runtime:/opt/intel/oneapi/advisor/2023.1.0/lib64/runtime:/opt/intel/oneapi/tbb/2021.9.0/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/mpi/2021.9.0//libfabric/lib:/opt/intel/oneapi/mpi/2021.9.0//lib/release:/opt/intel/oneapi/mpi/2021.9.0//lib:/opt/intel/oneapi/mkl/2023.1.0/lib/intel64:/opt/intel/oneapi/itac/2021.9.0/slib:/opt/intel/oneapi/ipp/2021.8.0/lib/intel64:/opt/intel/oneapi/ippcp/2021.7.0/lib/intel64:/opt/intel/oneapi/ipp/2021.8.0/lib/intel64:/opt/intel/oneapi/dnnl/2023.1.0/cpu_dpcpp_gpu_dpcpp/lib:/opt/intel/oneapi/debugger/2023.1.0/gdb/intel64/lib:/opt/intel/oneapi/debugger/2023.1.0/libipt/intel64/lib:/opt/intel/oneapi/debugger/2023.1.0/dep/lib:/opt/intel/oneapi/dal/2023.1.0/lib/intel64:/opt/intel/oneapi/compiler/2023.1.0/linux/lib:/opt/intel/oneapi/compiler/2023.1.0/linux/lib/x64:/opt/intel/oneapi/compiler/2023.1.0/linux/lib/oclfpga/host/linux64/lib:/opt/intel/oneapi/compiler/2023.1.0/linux/compiler/lib/intel64_lin:/opt/intel/oneapi/ccl/2021.9.0/lib/cpu_gpu_dpcpp
+120 [139753318135744] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+121 [139753318135744] INFO perfrun.launcher <> - Launcher: command line to start before modification = /home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out --norder 3000
+121 [139753318135744] INFO perfrun.launcher <> - Launcher: command line to start after modification = /opt/intel/oneapi/advisor/2023.1.0/bin64/pin -error_file /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /opt/intel/oneapi/advisor/2023.1.0/lib64/libtpsstool.so -t /opt/intel/oneapi/advisor/2023.1.0/lib32/libtpsstool.so -server_name tpss_ipc.19984 -prd_dir /opt/intel/oneapi/advisor/2023.1.0 -- /home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out --norder 3000
+121 [139753318135744] INFO perfrun.launcher <> - ProcessCreator object was created
+122 [139753318135744] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+123 [139753308620544] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:787
+123 [139753308620544] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+124 [139753308620544] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:204
+131 [139753308620544] INFO perfrun.vdso <> - Helper runtool '/opt/intel/oneapi/advisor/2023.1.0/bin32/advixe-runss -dump-vdso -r /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001 --tmp-dir /tmp/advixe-tmp-ruasgar' returned 1
+198 [139753308620544] INFO perfrun.vdso <> - Helper runtool '/opt/intel/oneapi/advisor/2023.1.0/bin64/advixe-runss -dump-vdso -r /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001 --tmp-dir /tmp/advixe-tmp-ruasgar' returned 0
+198 [139753308620544] INFO perfrun.itt <> - start itt controller for pid #19997
+198 [139753308620544] INFO perfrun.tpss <> - start tpss controller for pid #19997
+249 [139753318135744] INFO perfrun.launcher <> - Launcher: all plugins were started
+249 [139753318135744] INFO perfrun.launcher <> - DirectoryMonitor object was created
+249 [139753318135744] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+249 [139753318135744] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+249 [139753318135744] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+249 [139753318135744] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+252 [139753318135744] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+545344 [139753318135744] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+545350 [139753308620544] INFO perfrun.itt <> - detach itt controller
+545350 [139753308620544] INFO perfrun.itt <> - detach itt controller done
+545350 [139753308620544] INFO perfrun.tpss <> - stop tpss controller
+545351 [139753308620544] INFO perfrun.sdk <> - De-allocating TMU: /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0/systemcollector-19984-arkangel.sc
+545351 [139753308620544] INFO perfrun.system <> - closed the system trace file: /home/ruasgar/Bureau/9 período/CAD/COC472-T3/test/e000/hs001/data.0/systemcollector-19984-arkangel.sc
+545351 [139753318135744] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+545351 [139753318135744] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+545351 [139753318135744] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+545351 [139753318135744] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+545351 [139753318135744] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+545352 [139753318135744] INFO perfrun.launcher <> - Application exit code: 0
+545352 [139753318135744] INFO perfrun.launcher <> - Exit code: 0

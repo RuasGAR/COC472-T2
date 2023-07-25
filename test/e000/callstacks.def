@@ -1,0 +1,83 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      5808	    0	      0	                                  _start	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	5808	47	0	2	0	0	0	0	0	0	0	0
+         2	        -1	      5853	    0	      0	                                  _start	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	5808	47	0	2	0	0	0	0	0	0	0	0
+         3	        79	    147586	    1	      1	 [Loop at line 261 in __libc_start_main]	/lib/x86_64-linux-gnu/libc.so.6	147446,147688	228,139	0	13	0	0	0	0	0	0	0	0
+         4	        46	      5013	    1	      0	              [Loop at line 107 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4976	52	5028	3	1	0	0	1	1	1	1	1
+         5	        46	      4990	    1	      0	              [Loop at line 107 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4976	52	5028	3	1	0	0	1	1	1	1	1
+         6	         5	    294172	    0	      1	                                    rand	/lib/x86_64-linux-gnu/libc.so.6	294160	18	0	15	0	0	0	0	0	0	0	0
+         7	         6	    292928	    0	      1	                                __random	/lib/x86_64-linux-gnu/libc.so.6	292864	191	0	16	0	0	0	0	0	0	0	0
+         8	         7	    294018	    0	      1	                              __random_r	/lib/x86_64-linux-gnu/libc.so.6	294000	158	0	17	0	0	0	0	0	0	0	0
+         9	         7	    294103	    0	      1	                              __random_r	/lib/x86_64-linux-gnu/libc.so.6	294000	158	0	17	0	0	0	0	0	0	0	0
+        10	         7	    294070	    0	      1	                              __random_r	/lib/x86_64-linux-gnu/libc.so.6	294000	158	0	17	0	0	0	0	0	0	0	0
+        11	         7	    294072	    0	      1	                              __random_r	/lib/x86_64-linux-gnu/libc.so.6	294000	158	0	17	0	0	0	0	0	0	0	0
+        12	         7	    294022	    0	      1	                              __random_r	/lib/x86_64-linux-gnu/libc.so.6	294000	158	0	17	0	0	0	0	0	0	0	0
+        13	         6	    292962	    0	      1	                                __random	/lib/x86_64-linux-gnu/libc.so.6	292864	191	0	16	0	0	0	0	0	0	0	0
+        14	         6	    292886	    0	      1	                                __random	/lib/x86_64-linux-gnu/libc.so.6	292864	191	0	16	0	0	0	0	0	0	0	0
+        15	         7	    294059	    0	      1	                              __random_r	/lib/x86_64-linux-gnu/libc.so.6	294000	158	0	17	0	0	0	0	0	0	0	0
+        16	         7	    294000	    0	      1	                              __random_r	/lib/x86_64-linux-gnu/libc.so.6	294000	158	0	17	0	0	0	0	0	0	0	0
+        17	        46	      5005	    1	      0	              [Loop at line 107 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4976	52	5028	3	1	0	0	1	1	1	1	1
+        18	        46	      4991	    1	      0	              [Loop at line 107 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4976	52	5028	3	1	0	0	1	1	1	1	1
+        19	        46	      5001	    1	      0	              [Loop at line 107 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4976	52	5028	3	1	0	0	1	1	1	1	1
+        20	         3	      5203	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        21	        54	      6192	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        22	        54	      6202	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        23	        54	      6198	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        24	        54	      6179	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        25	        54	      6206	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        26	        54	      6183	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        27	        54	      6176	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        28	        53	      6232	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        29	        53	      6219	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        30	        54	      6208	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        31	        53	      6242	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        32	        54	      6181	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        33	        53	      6227	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        34	        68	      6301	    1	      0	                [Loop at line 74 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6272	42	6314	10	1	0	0	1	1	1	1	1
+        35	        68	      6309	    1	      0	                [Loop at line 74 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6272	42	6314	10	1	0	0	1	1	1	1	1
+        36	        54	      6186	    1	      0	                [Loop at line 58 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6176	37	6213	6	1	0	0	1	1	1	1	1
+        37	        53	      6162	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        38	        53	      6235	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        39	        53	      6223	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        40	        68	      6285	    1	      0	                [Loop at line 74 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6272	42	6314	10	1	0	0	1	1	1	1	1
+        41	        77	      5359	    1	      0	              [Loop at line 129 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	5336	36	5372	11	1	0	0	1	1	1	1	1
+        42	         3	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	1	0	0	0	0	0	0	0	0
+        43	        42	   9053496	    0	      1	                           func@0x8a2530	/opt/intel/oneapi/advisor/2023.1.0/lib64/libtpsstool.so	9053488	32	0	18	0	0	0	0	0	0	0	0
+        44	        43	   8265977	    0	      1	         LEVEL_PINCLIENT::PIN_LockClient	/opt/intel/oneapi/advisor/2023.1.0/lib64/libtpsstool.so	8265920	149	0	19	0	0	0	0	0	0	0	0
+        45	         3	      4960	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        46	        45	      4976	    1	      0	              [Loop at line 105 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4960	151	5120	5	1	0	0	1	1	1	1	1
+        47	         3	      5013	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        48	         3	      4990	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        49	         3	      5005	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        50	         3	      4991	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        51	         3	      5001	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        52	        20	      6144	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        53	        52	      6160	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6144,6176,6256,6440	26,76,166,68	6422	9	1	0	0	1	1	1	1	1
+        54	        53	      6176	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6160,6176	10,76	6256	8	1	0	0	1	1	1	1	1
+        55	        20	      6192	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        56	        20	      6202	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        57	        20	      6198	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        58	        20	      6179	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        59	        20	      6206	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        60	        20	      6183	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        61	        20	      6176	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        62	        20	      6232	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        63	        20	      6219	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        64	        20	      6208	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        65	        20	      6242	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        66	        20	      6181	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        67	        20	      6227	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        68	        52	      6272	    1	      0	                [Loop at line 56 in run]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6144,6176,6256,6440	26,76,166,68	6422	9	1	0	0	1	1	1	1	1
+        69	        20	      6301	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        70	        20	      6309	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        71	        20	      6186	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        72	        20	      6162	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        73	        20	      6235	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        74	        20	      6223	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        75	        20	      6285	    0	      0	                                     run	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	6048	460	0	7	0	0	0	0	0	0	0	0
+        76	         3	      5320	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        77	        76	      5336	    1	      0	              [Loop at line 126 in main]	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	5320	118	5438	12	1	0	0	1	1	1	1	1
+        78	         3	      5359	    0	      0	                                    main	/home/ruasgar/Bureau/9 período/CAD/COC472-T3/jacobi_O3_MAN_OTM.out	4576	1230	0	4	0	0	0	0	0	0	0	0
+        79	         2	    147446	    0	      1	                       __libc_start_main	/lib/x86_64-linux-gnu/libc.so.6	147344	483	0	14	0	0	0	0	0	0	0	0
+        80	         2	    147586	    0	      1	                       __libc_start_main	/lib/x86_64-linux-gnu/libc.so.6	147344	483	0	14	0	0	0	0	0	0	0	0
+        81	        -1	         0	    0	      0	                      [Outside any loop]	n/a	0	0	0	20	0	0	0	0	0	0	0	0
